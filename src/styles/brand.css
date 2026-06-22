@@ -1,0 +1,253 @@
+/* ============================================================================
+   Liverpool Dental — Author Docs theme. Light only.
+   Goal: restraint. Poppins, Liverpool tokens, real whitespace.
+   One accent (teal) on links and focus rings. Nothing else shouts.
+   ============================================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+  /* Liverpool brand tokens (subset — only what's used). */
+  --liv-primary-500: #212B58;
+  --liv-primary-600: #1A2347;
+  --liv-primary-700: #151C38;
+  --liv-brand-500:   #00A689;
+  --liv-brand-600:   #008C73;
+  --liv-brand-700:   #006B5E;
+
+  --liv-ink:    #1E2433;
+  --liv-ink-2:  #4F576A;
+  --liv-ink-3:  #7C8499;
+  --liv-line:   #E7E9F0;
+  --liv-line-2: #F1F2F7;
+  --liv-paper:  #FFFFFF;
+  --liv-mist:   #FAFAFC;
+
+  --liv-radius-sm: 0.5rem;
+  --liv-radius:    0.75rem;
+
+  --liv-ease: cubic-bezier(0.4, 0, 0.2, 1);
+  --liv-dur:  180ms;
+}
+
+/* Starlight bridge.
+   IMPORTANT: in Starlight, `--sl-color-white` is the strongest TEXT color
+   and `--sl-color-black` is the BG. They flip per theme; we run light only. */
+:root,
+:root[data-theme='light'] {
+  --sl-font: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+             'Helvetica Neue', Arial, sans-serif;
+  --sl-font-system: var(--sl-font);
+
+  --sl-color-accent-low:  #EEF0F5;
+  --sl-color-accent:      var(--liv-primary-500);
+  --sl-color-accent-high: var(--liv-primary-700);
+
+  /* Text-ish (Starlight scales 1 = strongest, 7 = weakest in light mode). */
+  --sl-color-white: var(--liv-ink);     /* strongest text */
+  --sl-color-gray-1: var(--liv-ink);
+  --sl-color-gray-2: var(--liv-ink-2);
+  --sl-color-gray-3: var(--liv-ink-3);
+  --sl-color-gray-4: #A6ACBD;
+  --sl-color-gray-5: var(--liv-line);
+  --sl-color-gray-6: var(--liv-line-2);
+  --sl-color-gray-7: var(--liv-mist);
+  --sl-color-black:  var(--liv-paper);  /* page background */
+
+  --sl-color-text:        var(--liv-ink);
+  --sl-color-text-accent: var(--liv-brand-700);
+  --sl-color-bg:          var(--liv-paper);
+  --sl-color-bg-nav:      var(--liv-paper);
+  --sl-color-bg-sidebar:  var(--liv-paper);
+  --sl-color-bg-inline-code: var(--liv-line-2);
+
+  --sl-color-hairline:        var(--liv-line);
+  --sl-color-hairline-light:  var(--liv-line-2);
+  --sl-color-hairline-shade:  var(--liv-line);
+
+  --sl-content-width: 50rem;
+  --sl-line-height: 1.65;
+  --sl-line-height-headings: 1.25;
+}
+
+/* ---------- Type ---------- */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--liv-ink);
+  background: var(--liv-paper);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  letter-spacing: -0.018em;
+  color: var(--liv-primary-700);
+  text-wrap: balance;
+}
+h1 { font-weight: 700; letter-spacing: -0.024em; }
+
+.sl-markdown-content p,
+.sl-markdown-content li { text-wrap: pretty; }
+
+/* Generous heading rhythm. */
+.sl-markdown-content h2 { margin-top: 3.5rem; }
+.sl-markdown-content h3 { margin-top: 2.5rem; }
+.sl-markdown-content p + p { margin-top: 1rem; }
+
+/* ---------- Links ---------- */
+.sl-markdown-content a:not(.not-content *) {
+  color: var(--liv-brand-700);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-decoration-color: color-mix(in oklab, var(--liv-brand-500) 28%, transparent);
+  text-underline-offset: 3px;
+  transition: color var(--liv-dur) var(--liv-ease),
+              text-decoration-color var(--liv-dur) var(--liv-ease);
+}
+.sl-markdown-content a:not(.not-content *):hover {
+  color: var(--liv-brand-600);
+  text-decoration-color: var(--liv-brand-500);
+}
+
+/* ---------- Inline code ---------- */
+.sl-markdown-content :not(pre) > code:not(.not-content *) {
+  font-size: 0.92em;
+  padding: 0.08em 0.36em;
+  border-radius: var(--liv-radius-sm);
+  background: var(--liv-line-2);
+  color: var(--liv-primary-700);
+  font-weight: 500;
+}
+
+/* ---------- Blockquotes ---------- */
+.sl-markdown-content blockquote {
+  border: 0;
+  background: var(--liv-mist);
+  color: var(--liv-ink-2);
+  padding: 1rem 1.25rem;
+  border-radius: var(--liv-radius);
+  font-style: normal;
+}
+
+/* ---------- Tables ---------- */
+.sl-markdown-content table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.sl-markdown-content th,
+.sl-markdown-content td {
+  padding: 0.7rem 0.9rem;
+  text-align: left;
+  border-bottom: 1px solid var(--sl-color-hairline);
+  vertical-align: top;
+}
+.sl-markdown-content th {
+  font-weight: 600;
+  color: var(--liv-primary-700);
+  font-size: 0.92em;
+  letter-spacing: -0.005em;
+  border-bottom-color: var(--liv-primary-500);
+}
+.sl-markdown-content tr:last-child td { border-bottom: 0; }
+
+/* ---------- Task checkboxes ---------- */
+.sl-markdown-content input[type='checkbox'] {
+  accent-color: var(--liv-brand-500);
+  transform: translateY(2px);
+  margin-right: 0.4rem;
+}
+
+/* ---------- Asides ---------- */
+starlight-aside { border-radius: var(--liv-radius); }
+
+/* ---------- Header (navy band, matches LMS) ---------- */
+header.header {
+  background: var(--liv-primary-500);
+  border-bottom: 0;
+  color: #fff;
+}
+header.header a,
+header.header .site-title,
+header.header button {
+  color: #fff;
+}
+
+/* Site title block: logo | vertical divider | wordmark */
+header.header .site-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.875rem;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  letter-spacing: -0.005em;
+  white-space: nowrap;
+  color: #fff;
+}
+header.header .site-title img {
+  height: 1.85rem;
+  width: auto;
+  display: block;
+}
+/* Vertical divider — pseudo, sits between logo and text */
+header.header .site-title::after {
+  content: '';
+  display: inline-block;
+  width: 1px;
+  height: 1.6rem;
+  background: rgba(255, 255, 255, 0.32);
+  order: 1;        /* place after the logo (which is order 0) */
+  margin-right: 0.125rem;
+}
+/* The text node becomes the title; it appears after the divider */
+header.header .site-title {
+  /* Flex order: img(0) — pseudo divider(1) — text(2). Default order keeps natural flow. */
+}
+header.header .site-title > img { order: 0; }
+/* Wrap the text after divider: Starlight emits the title as a sibling text node;
+   reorder via inline-block wrapping (no extra markup needed because the
+   pseudo divider sits between the img and the title text via flex order). */
+header.header .site-title :not(img) { order: 2; }
+
+/* Search button inside the navy header */
+header.header [aria-label*="Search"],
+header.header [aria-label*="search"] {
+  background: rgba(255, 255, 255, 0.10);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  color: rgba(255, 255, 255, 0.92);
+  border-radius: 999px;
+  padding-inline: 0.85rem;
+}
+header.header [aria-label*="Search"]:hover,
+header.header [aria-label*="search"]:hover {
+  background: rgba(255, 255, 255, 0.18);
+  border-color: rgba(255, 255, 255, 0.36);
+}
+header.header [aria-label*="Search"] kbd,
+header.header [aria-label*="search"] kbd {
+  background: rgba(255, 255, 255, 0.16);
+  color: rgba(255, 255, 255, 0.78);
+  border: 0;
+}
+
+/* ---------- Sidebar ---------- */
+nav.sidebar a[aria-current='page'] {
+  background: var(--sl-color-accent-low);
+  color: var(--liv-primary-700);
+  font-weight: 600;
+}
+
+/* ---------- Focus ---------- */
+:focus-visible {
+  outline: 2px solid var(--liv-brand-500);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* ---------- Reduced motion ---------- */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -1,0 +1,124 @@
+/* Hide the splash template's auto-rendered title block — our .home is the only thing shown. */
+main .content-panel:first-of-type { display: none; }
+main > .hero { display: none; }
+
+.home {
+  max-width: 44rem;
+  margin: 0 auto;
+  padding: 4rem 1.5rem 6rem;
+  color: var(--liv-ink);
+  font-family: var(--sl-font);
+}
+
+.home a {
+  color: var(--liv-brand-700);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-decoration-color: color-mix(in oklab, var(--liv-brand-500) 28%, transparent);
+  text-underline-offset: 3px;
+  transition: color 180ms cubic-bezier(.4, 0, .2, 1),
+              text-decoration-color 180ms cubic-bezier(.4, 0, .2, 1);
+}
+.home a:hover {
+  color: var(--liv-brand-600);
+  text-decoration-color: var(--liv-brand-500);
+}
+
+.home-head { margin-bottom: 5rem; }
+
+.home-head .eyebrow {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--liv-ink-3);
+  margin: 0 0 1.25rem;
+}
+
+.home-head h1 {
+  font-size: clamp(2.25rem, 1.5rem + 3vw, 3.25rem);
+  font-weight: 700;
+  letter-spacing: -0.026em;
+  line-height: 1.05;
+  color: var(--liv-primary-700);
+  margin: 0 0 1.25rem;
+}
+
+.home-head .lede {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: var(--liv-ink-2);
+  margin: 0 0 1.75rem;
+  max-width: 38rem;
+}
+
+.home-head .start { margin: 0; font-size: 1rem; }
+.home-head .start a { font-weight: 600; }
+
+.toc { margin-bottom: 5rem; }
+.toc h2,
+.help h2 {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--liv-ink-3);
+  margin: 0 0 1.5rem;
+}
+
+.toc ol {
+  counter-reset: toc;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-top: 1px solid var(--liv-line);
+}
+
+.toc li {
+  counter-increment: toc;
+  display: grid;
+  grid-template-columns: 2.25rem 1fr;
+  gap: 0.25rem 1rem;
+  padding: 1.25rem 0;
+  border-bottom: 1px solid var(--liv-line);
+  align-items: baseline;
+}
+
+.toc li::before {
+  content: counter(toc, decimal-leading-zero);
+  grid-column: 1;
+  grid-row: 1 / span 2;
+  font-variant-numeric: tabular-nums;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--liv-ink-3);
+  padding-top: 0.15rem;
+}
+
+.toc li a {
+  grid-column: 2;
+  font-size: 1.0625rem;
+  font-weight: 600;
+  color: var(--liv-primary-700);
+  text-decoration: none;
+}
+.toc li a:hover { color: var(--liv-brand-700); }
+
+.toc li span {
+  grid-column: 2;
+  color: var(--liv-ink-2);
+  font-size: 0.9375rem;
+  line-height: 1.55;
+}
+
+.help p {
+  font-size: 1rem;
+  color: var(--liv-ink-2);
+  margin: 0;
+}
+
+@media (max-width: 40rem) {
+  .home { padding: 2.5rem 1.25rem 4rem; }
+  .home-head { margin-bottom: 3.5rem; }
+  .toc { margin-bottom: 3.5rem; }
+}

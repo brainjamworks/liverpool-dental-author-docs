@@ -1,0 +1,36 @@
+---
+import type { Props } from '@astrojs/starlight/props';
+import Default from '@astrojs/starlight/components/Footer.astro';
+
+const { pagination } = Astro.props as Props;
+const showDefault = pagination !== undefined;
+---
+
+{showDefault && <Default {...Astro.props} />}
+
+<div class="liv-attribution not-content">
+  <span>
+    <strong>Liverpool Dental Learning Hub</strong> — author guide.
+  </span>
+  <span>
+    Built by <a href="https://brainjam.works" rel="noopener">BrainJam</a>
+    for the <a href="https://liverpool.ac.uk/dentistry/" rel="noopener">University of Liverpool School of Dentistry</a>.
+  </span>
+</div>
+
+<style>
+  .liv-attribution :global(a) {
+    color: var(--liv-brand-700);
+    text-decoration: none;
+    border-bottom: 1px solid color-mix(in oklab, var(--liv-brand-500) 35%, transparent);
+    transition: border-color var(--liv-dur-fast) var(--liv-ease),
+                color var(--liv-dur-fast) var(--liv-ease);
+  }
+  .liv-attribution :global(a:hover) {
+    color: var(--liv-brand-600);
+    border-bottom-color: var(--liv-brand-500);
+  }
+  :global([data-theme='dark']) .liv-attribution :global(a) {
+    color: var(--liv-brand-300);
+  }
+</style>
