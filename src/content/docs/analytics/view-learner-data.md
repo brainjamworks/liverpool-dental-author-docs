@@ -35,7 +35,3 @@ These are large for big courses — queue, then come back to the page.
 - Cross-course engagement.
 
 Those live in deeper analytics (Cairn / Aspects). Not currently exposed on this deployment — raise a request via [dental.cpd@liverpool.ac.uk](mailto:dental.cpd@liverpool.ac.uk) if you need them.
-
----
-
-*Adapted from [Open edX — View Learner Data](https://docs.openedx.org/en/latest/educators/how-tos/data/view_learner_data.html).*

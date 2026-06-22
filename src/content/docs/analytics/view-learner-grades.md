@@ -40,7 +40,3 @@ The grading policy itself is set in Studio under **Settings → Grading**. Set:
 - **Assignment types** — for CPD courses, usually a single "Assessment" type at 100% weight.
 - **Pass threshold** — Liverpool Dental's default is **81%** (Pass band 81–100, Fail 0–80). Check the course's CPD claim before changing.
 - **Grade range** — pass/fail unless you want graded letters.
-
----
-
-*Adapted from [Open edX — View Learner Grades](https://docs.openedx.org/en/latest/educators/how-tos/data/view_learner_grades.html).*

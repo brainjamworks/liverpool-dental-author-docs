@@ -34,7 +34,3 @@ Downloads are queued — refresh the page after a minute to find the file under 
 - **Activity** — how far through the course they are. See [View learner data](../view-learner-data/).
 - **Grades** — see [View learner grades](../view-learner-grades/).
 - **Certificates issued** — see [View certificate data](../view-certificate-data/).
-
----
-
-*Adapted from [Open edX — View Course Enrollments](https://docs.openedx.org/en/latest/educators/how-tos/data/view_course_enrollments.html).*

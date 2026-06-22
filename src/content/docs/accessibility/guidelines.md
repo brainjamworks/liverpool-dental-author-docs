@@ -1,11 +1,11 @@
 ---
-title: Open edX accessibility guidelines
+title: the Learning Hub accessibility guidelines
 description: What WCAG 2.1 AA looks like in practice on this platform.
 sidebar:
   order: 1
 ---
 
-Open edX is built to a WCAG 2.1 AA target. As an author, the platform handles most of the heavy lifting (focus management, ARIA roles, keyboard nav) — but the content you put in is your responsibility.
+the Learning Hub is built to a WCAG 2.1 AA target. As an author, the platform handles most of the heavy lifting (focus management, ARIA roles, keyboard nav) — but the content you put in is your responsibility.
 
 ## The five things you must get right
 
@@ -31,7 +31,3 @@ Open edX is built to a WCAG 2.1 AA target. As an author, the platform handles mo
 ## Why this matters beyond compliance
 
 A meaningful share of dental professionals have correctable visual impairments. Accessibility isn't just a regulatory checkbox — it directly affects whether your CPD content is usable.
-
----
-
-*Adapted from [Open edX — Accessibility Guidelines](https://docs.openedx.org/en/latest/educators/references/accessibility/index.html).*

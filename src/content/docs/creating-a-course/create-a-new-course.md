@@ -45,7 +45,3 @@ The course's permanent URL slug is built from these three values:
 2. Add a **course image** and **course overview** text — these appear on the course-about page.
 3. Add **CPD hours** and **GDC outcomes** to the overview text.
 4. Start building the [outline](../plan-a-new-course/).
-
----
-
-*Adapted from [Open edX — Create a New Course](https://docs.openedx.org/en/latest/educators/how-tos/set_up_course/create_new_course.html).*

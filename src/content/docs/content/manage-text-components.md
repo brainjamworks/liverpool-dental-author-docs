@@ -41,7 +41,3 @@ You can paste an `<iframe>` into the HTML source view, but prefer a real [video 
 - Alt text on every image.
 - Real headings, not bold-as-heading.
 - Descriptive link text — never "click here".
-
----
-
-*Adapted from [Open edX — Manage Text Components](https://docs.openedx.org/en/latest/educators/how-tos/manage_text_components.html).*

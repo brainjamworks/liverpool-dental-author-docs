@@ -9,7 +9,7 @@ A transcript isn't optional — it's a WCAG requirement, and on the Liverpool De
 
 ## What format
 
-Open edX accepts:
+The video component accepts:
 
 - **`.srt`** (SubRip) — most common, what YouTube exports.
 - **`.vtt`** (WebVTT) — preferred modern format.
@@ -42,7 +42,3 @@ For every transcript, verify:
 ## Translations
 
 Multiple language transcripts can attach to a single video. Set the language code in the Studio upload form. The LMS player shows a language picker if more than one is loaded.
-
----
-
-*Adapted from [Open edX — Manage Video Transcripts](https://docs.openedx.org/en/latest/educators/how-tos/manage_video_transcripts.html).*

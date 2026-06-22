@@ -6,7 +6,7 @@ sidebar:
 ---
 
 :::note[Prefer coursekit for new content]
-Native Open edX problem editing is documented here for reference and for working with legacy items. **For new content, use [coursekit](../../content/authoring-with-coursekit/)** — added via *Add Component → Advanced → coursekit* in Studio.
+Native the Learning Hub problem editing is documented here for reference and for working with legacy items. **For new content, use [coursekit](../../content/authoring-with-coursekit/)** — added via *Add Component → Advanced → coursekit* in Studio.
 :::
 
 **Open Response Assessment (ORA)** lets learners submit free text (and optionally a file). Grading is rubric-based — by a peer, by an instructor, or both. This is the heaviest tool in the box; use it deliberately.
@@ -38,7 +38,3 @@ Good: *Identifies at least three differential diagnoses and justifies each with 
 
 - Peer assessment requires a quorum (default 3 peers). It can stall in low-enrolment courses.
 - Self-assessment is honest but not auditable for certification — consider pairing with a graded MCQ for the CPD-hours-claim record.
-
----
-
-*Adapted from [Open edX — Open Response Assessments](https://docs.openedx.org/en/latest/educators/concepts/exercise_tools/open_response_assessments.html).*

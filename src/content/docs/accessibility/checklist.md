@@ -39,7 +39,3 @@ Run this checklist once per course before you publish. It takes about 15 minutes
 - [ ] Course-about page describes the course in plain English.
 - [ ] Course overview lists CPD hours and GDC outcomes addressed.
 - [ ] Support email is visible: [dental.cpd@liverpool.ac.uk](mailto:dental.cpd@liverpool.ac.uk).
-
----
-
-*Adapted from [Open edX — Accessibility Best Practices Checklist](https://docs.openedx.org/en/latest/educators/references/accessibility/accessibility_best_practices_checklist.html).*

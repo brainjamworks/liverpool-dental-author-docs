@@ -38,7 +38,3 @@ For Liverpool Dental CPD recordkeeping, this is the canonical export. Keep dated
 - **Revoke** — *Instructor → Certificates → Invalidate Certificate* and provide a reason. The certificate URL stops working; the learner sees a "revoked" notice.
 
 Revocation is rare but matters for compliance — e.g. if a clinical guideline change invalidates the course content and you need to require a retake.
-
----
-
-*Adapted from [Open edX — View Certificate Data](https://docs.openedx.org/en/latest/educators/how-tos/data/view_certificate_data.html).*

@@ -37,7 +37,3 @@ The XBlocks that benefit most from a larger screen: `image-annotation-xblock` (f
 - [ ] Pinch-zoom: does any text need it?
 - [ ] Try every interactive component with thumbs only.
 - [ ] Pause a video — do captions render?
-
----
-
-*Adapted from [Open edX — Designing for a Mobile Experience](https://docs.openedx.org/en/latest/educators/concepts/accessibility/mobile_design.html).*

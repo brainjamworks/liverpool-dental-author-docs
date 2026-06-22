@@ -34,7 +34,3 @@ Pivot this in your tool of choice (a spreadsheet pivot table is plenty) to get a
 - A distractor that's never picked → swap for a better one.
 - A distractor that beats the correct answer → either your item is wrong, or you've found a teaching priority. Both worth knowing.
 - An item with very high success rate (>95%) → fine for confidence-building, but doesn't discriminate. Don't claim it's testing anything meaningful.
-
----
-
-*Adapted from [Open edX — View Answer Data](https://docs.openedx.org/en/latest/educators/how-tos/data/view_answer_data.html).*

@@ -25,7 +25,3 @@ sidebar:
 | Build the course | ✓ | |
 | Preview as a learner | | ✓ |
 | Manage enrolments / bulk email | | ✓ |
-
----
-
-*Adapted from [Open edX — What Is Studio?](https://docs.openedx.org/en/latest/educators/concepts/openedx_platform/what_is_studio.html).*

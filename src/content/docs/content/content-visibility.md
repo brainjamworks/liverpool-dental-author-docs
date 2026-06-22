@@ -44,7 +44,3 @@ Use **Content Groups** to show different content to different cohorts. See [Offe
 ## A common mistake
 
 Hitting **Publish** on a unit doesn't change anything for learners if the parent subsection is still in draft. Always publish from the highest level you're ready to release — Studio will cascade.
-
----
-
-*Adapted from [Open edX — Control Content Visibility & Access](https://docs.openedx.org/en/latest/educators/how-tos/visibility_access.html).*

@@ -48,7 +48,3 @@ Studio has a **Library** feature for cross-course reuse, but for most Liverpool 
 ## Liverpool Dental custom XBlocks
 
 The deployment ships 11 custom interactive XBlocks for case-based learning. See [The problem component](../../components/problem-component/) for the full list.
-
----
-
-*Adapted from [Open edX — Create and Manage Components](https://docs.openedx.org/en/latest/educators/concepts/courseware/create_manage_components.html).*

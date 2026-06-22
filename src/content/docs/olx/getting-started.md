@@ -60,7 +60,3 @@ The high-frequency OLX elements:
 - `<html>` — text component.
 - `<video>` — video component.
 - `<problem>` — problem component.
-
----
-
-*Adapted from [Open edX — Getting Started with OLX](https://docs.openedx.org/en/latest/educators/how-tos/olx/getting_started_olx.html).*

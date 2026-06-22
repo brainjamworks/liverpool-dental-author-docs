@@ -30,7 +30,7 @@ Use this for cohort programmes or whole-practice sign-ups.
 1. In the **LMS**, open the course as an instructor.
 2. *Instructor → Membership → Batch Enrolment*.
 3. Paste email addresses (one per line) and click **Enrol**.
-4. Open edX sends each new email address an invitation to create an account; existing users are enrolled immediately.
+4. The Learning Hub sends each new email address an invitation to create an account; existing users are enrolled immediately.
 
 ## Capacity, payments, and codes
 
@@ -42,7 +42,3 @@ The Liverpool Dental deployment does **not** currently have e-commerce wired up,
 - Or use the in-LMS *Membership* page for a paginated view.
 
 See [View course enrolments](../../analytics/view-course-enrollments/).
-
----
-
-*Adapted from [Open edX — Enroll Learners in a Course](https://docs.openedx.org/en/latest/educators/how-tos/manage_course/enroll_learners_in_course.html).*

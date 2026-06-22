@@ -20,7 +20,7 @@ Bulk email isn't visible on the Instructor dashboard until you enable it in Stud
 
 ## When *not* to use it
 
-- Marketing — Open edX bulk email is transactional, not a marketing tool.
+- Marketing — the Learning Hub bulk email is transactional, not a marketing tool.
 - Routine module-by-module updates — use the in-course updates panel.
 - Anything personal — it goes to everyone.
 
@@ -41,8 +41,4 @@ Every bulk email is logged under *Instructor → Email → Sent Email History*. 
 
 ## Limits
 
-Open edX queues bulk emails through Celery; large courses can take several minutes to dispatch. There's no per-day cap, but treat it as a once-a-week-max channel — over-emailing learners is the fastest way to train them to ignore you.
-
----
-
-*Adapted from [Open edX — Bulk Emails](https://docs.openedx.org/en/latest/educators/how-tos/communication/bulk_email.html).*
+the Learning Hub queues bulk emails through Celery; large courses can take several minutes to dispatch. There's no per-day cap, but treat it as a once-a-week-max channel — over-emailing learners is the fastest way to train them to ignore you.

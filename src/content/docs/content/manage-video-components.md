@@ -42,7 +42,3 @@ Uploaded videos go to the Liverpool Dental S3 bucket via the `tutor-liverpool-de
 - Keep individual clips under 8 minutes — split longer recordings.
 - Speaker on camera in a corner, slides centred, is the most-watched format.
 - Show one key reference at the end so learners can cite the source.
-
----
-
-*Adapted from [Open edX — Manage Video Components](https://docs.openedx.org/en/latest/educators/how-tos/manage_video_components.html).*

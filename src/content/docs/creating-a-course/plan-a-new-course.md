@@ -56,7 +56,3 @@ The pre/post pattern lets learners self-rate against the end-of-module score, wh
 
 - [Create and manage components](../../content/create-and-manage-components/)
 - [Control content visibility and access](../../content/content-visibility/)
-
----
-
-*Adapted from [Open edX — Plan a New Course](https://docs.openedx.org/en/latest/educators/concepts/set_up_course/plan_course_run.html).*

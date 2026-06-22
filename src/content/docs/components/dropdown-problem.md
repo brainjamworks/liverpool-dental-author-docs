@@ -6,7 +6,7 @@ sidebar:
 ---
 
 :::note[Prefer coursekit for new content]
-Native Open edX problem editing is documented here for reference and for working with legacy items. **For new content, use [coursekit](../../content/authoring-with-coursekit/)** — added via *Add Component → Advanced → coursekit* in Studio.
+Native the Learning Hub problem editing is documented here for reference and for working with legacy items. **For new content, use [coursekit](../../content/authoring-with-coursekit/)** — added via *Add Component → Advanced → coursekit* in Studio.
 :::
 
 A dropdown problem shows a `<select>` element with one correct answer. Use it when the list of options is long enough that radio buttons would clutter the page, or when the options should be read sequentially.
@@ -39,7 +39,3 @@ Parentheses mark the correct answer.
 - **Show answer** → *After last attempt* (recommended for CPD).
 - **Maximum attempts** → blank (unlimited) for formative; `1`–`3` for graded summative.
 - **Hints / explanation** → write a one-line rationale that displays after answer reveal. This is the single biggest formative-value lever.
-
----
-
-*Adapted from [Open edX — Dropdown Problem](https://docs.openedx.org/en/latest/educators/concepts/exercise_tools/dropdown_problem.html).*

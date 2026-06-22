@@ -6,10 +6,10 @@ sidebar:
 ---
 
 :::note[Prefer coursekit for new content]
-Native Open edX problem editing is documented here for reference and for working with legacy items. **For new content, use [coursekit](../../content/authoring-with-coursekit/)** — added via *Add Component → Advanced → coursekit* in Studio.
+Native the Learning Hub problem editing is documented here for reference and for working with legacy items. **For new content, use [coursekit](../../content/authoring-with-coursekit/)** — added via *Add Component → Advanced → coursekit* in Studio.
 :::
 
-In Open edX, *Problem* is the umbrella for any question type. They share the same framework: a prompt, one or more inputs, automatic grading, attempt limits, and feedback.
+*Problem* is the umbrella for any question type. They share the same framework: a prompt, one or more inputs, automatic grading, attempt limits, and feedback.
 
 ![Liverpool drag-drop-matching XBlock in a checkpoint unit](../../../assets/screenshots/xblock-drag-drop-matching.png)
 
@@ -31,7 +31,6 @@ In Open edX, *Problem* is the umbrella for any question type. They share the sam
 - [Multi-select (checkboxes)](../multi-select-problem/)
 - [Dropdown](../dropdown-problem/)
 - [Text input](../text-input-problem/)
-- [Numerical input](https://docs.openedx.org/en/latest/educators/references/exercise_tools/numerical_input_problem.html)
 - [Open response assessment](../open-response-assessments/)
 
 ## Liverpool Dental custom XBlocks
@@ -57,7 +56,3 @@ These are pinned via `XBLOCKS_SHA` in [`liverpool-dental-deploy/versions.lock`](
 ## Writing problems — the Markdown shortcut
 
 The problem editor supports a Markdown-like syntax that's faster than the visual editor once you know it. The top of every problem template shows an example — start there.
-
----
-
-*Adapted from [Open edX — The Open edX Problem Component](https://docs.openedx.org/en/latest/educators/concepts/exercise_tools/openedx_problem.html).*

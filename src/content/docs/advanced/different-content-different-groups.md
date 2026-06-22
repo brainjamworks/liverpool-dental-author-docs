@@ -5,7 +5,7 @@ sidebar:
   order: 1
 ---
 
-Sometimes you want to show different content to different learners in the same course — e.g. an undergraduate-vs-postgraduate variant of the same module. **Content Groups** are how Open edX does this.
+Sometimes you want to show different content to different learners in the same course — e.g. an undergraduate-vs-postgraduate variant of the same module. **Content Groups** are how this is done.
 
 ![Studio Group configurations page with no content groups yet](../../../assets/screenshots/studio-group-configs.png)
 
@@ -32,7 +32,3 @@ The learner only sees the components their cohort has access to.
 - Content groups apply at the component level, not section/subsection level.
 - A learner is in exactly one group per configuration.
 - Changing a learner's cohort changes what they see immediately — no rebuild.
-
----
-
-*Adapted from [Open edX — Offer Different Content to Different Groups](https://docs.openedx.org/en/latest/educators/concepts/advanced/different_content_to_groups.html).*

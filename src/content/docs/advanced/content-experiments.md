@@ -22,7 +22,7 @@ For a Liverpool Dental CPD course you probably need **at least 200 learners per 
 3. In a unit, drop a *Content Experiment* component.
 4. Add variant content inside the experiment block.
 
-Open edX randomly assigns each learner to a group on enrolment. They stay in the same group throughout the course.
+Each learner is randomly assigned to a group on enrolment. They stay in the same group throughout the course.
 
 ## Measuring outcomes
 
@@ -35,7 +35,3 @@ Use the [Problem Grade Report](../../analytics/view-learner-grades/) and filter 
 ## When to use cohorts instead
 
 If you want to *deliberately* show different content to different learners (not random), use [Content Groups + Cohorts](../different-content-different-groups/) — not experiments.
-
----
-
-*Adapted from [Open edX — Run Content Experiments](https://docs.openedx.org/en/latest/educators/concepts/advanced/content_experiments.html).*

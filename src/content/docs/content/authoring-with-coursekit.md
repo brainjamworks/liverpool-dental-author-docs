@@ -26,9 +26,9 @@ The coursekit XBlock isn't installed on `studio.learning.endo360.uk` yet — thi
 
 ## Why coursekit, not the native problem editor
 
-Open edX's built-in problem editor pre-dates modern authoring tools and shows it. coursekit is a block-stack editor (MCQ, multi-select, sequencing, image-hotspot, drag-drop, categorise, matching) built for educators who write course content full-time. It runs entirely inside Studio via the XBlock adapter; nothing extra to deploy, nothing to maintain separately.
+The built-in problem editor pre-dates modern authoring tools and shows it. coursekit is a block-stack editor (MCQ, multi-select, sequencing, image-hotspot, drag-drop, categorise, matching) built for educators who write course content full-time. It runs entirely inside Studio via the XBlock adapter; nothing extra to deploy, nothing to maintain separately.
 
-If you've used the native Open edX problem editor before and found it slow, that's the experience coursekit replaces.
+If you've used the built-in problem editor before and found it slow, that's the experience coursekit replaces.
 
 ## Adding a coursekit block to a unit
 

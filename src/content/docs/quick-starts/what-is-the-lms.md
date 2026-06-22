@@ -27,7 +27,3 @@ As a course author you'll spend most of your time in [Studio](../what-is-studio/
 - Work through course content (text, video, problems, assessments).
 - Track progress, view grades, and download certificates.
 - Participate in discussions if enabled.
-
----
-
-*Adapted from [Open edX — What Is the LMS?](https://docs.openedx.org/en/latest/educators/concepts/openedx_platform/what_is_lms.html).*

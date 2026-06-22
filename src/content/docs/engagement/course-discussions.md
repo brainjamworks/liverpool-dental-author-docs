@@ -5,7 +5,7 @@ sidebar:
   order: 1
 ---
 
-Open edX has a built-in threaded discussion system. For self-paced CPD courses, async discussion is usually low-volume — so the question isn't *whether to enable it* but *what role you want it to play*.
+The Learning Hub has a built-in threaded discussion system. For self-paced CPD courses, async discussion is usually low-volume — so the question isn't *whether to enable it* but *what role you want it to play*.
 
 ![Studio Pages and Resources view with Discussion enabled](../../../assets/screenshots/studio-pages-resources.png)
 
@@ -42,7 +42,3 @@ Assign at least one Moderator per active course.
 ## Notifications
 
 Learners get email digests by default. Course authors should subscribe to topics they own so you don't miss a clinical correction.
-
----
-
-*Adapted from [Open edX — Course Discussions](https://docs.openedx.org/en/latest/educators/concepts/communication/about_course_discussions.html).*

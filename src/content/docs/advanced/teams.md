@@ -36,7 +36,3 @@ Each team gets a private discussion topic visible only to team members. This is 
 ## Pre-flight check
 
 If you're not committing to facilitating teams for the duration of the course, leave the feature off. An empty Teams page is a worse user experience than no Teams page.
-
----
-
-*Adapted from [Open edX — Use Teams in Your Course](https://docs.openedx.org/en/latest/educators/concepts/advanced/teams.html).*

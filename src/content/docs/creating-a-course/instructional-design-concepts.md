@@ -11,7 +11,7 @@ Before opening Studio, it's worth spending a few minutes on instructional design
 
 *ENDO101's outline in Studio. Sections expand into subsections, which expand into units. The unit *Welcome Message* is published (live) with discussions enabled.*
 
-## The Open edX hierarchy
+## The Learning Hub course hierarchy
 
 Every course in Studio follows the same nested structure:
 
@@ -49,7 +49,3 @@ The Liverpool Dental deployment ships 11 custom XBlocks for case-based learning 
 - [ ] Total CPD hours and GDC outcomes decided.
 - [ ] Section outline sketched on paper before you open Studio.
 - [ ] One assessment item planned per learning outcome.
-
----
-
-*Adapted from [Open edX — Instructional Design Concepts](https://docs.openedx.org/en/latest/educators/concepts/instructional_design/instructional_design.html).*

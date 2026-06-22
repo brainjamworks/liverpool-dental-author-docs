@@ -6,7 +6,7 @@ sidebar:
 ---
 
 :::note[Prefer coursekit for new content]
-Native Open edX problem editing is documented here for reference and for working with legacy items. **For new content, use [coursekit](../../content/authoring-with-coursekit/)** — added via *Add Component → Advanced → coursekit* in Studio.
+Native the Learning Hub problem editing is documented here for reference and for working with legacy items. **For new content, use [coursekit](../../content/authoring-with-coursekit/)** — added via *Add Component → Advanced → coursekit* in Studio.
 :::
 
 Text input asks for a short typed answer (a word, a number, a clinical term) and matches it against a list of accepted answers. Useful when you want recall without giving away the answer in a list of distractors.
@@ -38,7 +38,3 @@ There's no partial-credit fuzzy matching — close-but-wrong answers score zero.
 ## Hints
 
 Add a hint that gives the format rather than the answer — e.g. *"Two-word Latin binomial."*
-
----
-
-*Adapted from [Open edX — Text Input Problem](https://docs.openedx.org/en/latest/educators/concepts/exercise_tools/text_input_problem.html).*

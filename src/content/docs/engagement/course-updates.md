@@ -45,7 +45,3 @@ The same page hosts a **Handouts** section — a permanent sidebar of links and 
 | One-off announcement, all learners, no email | Course update |
 | One-off announcement, all learners, with email | [Bulk email](../bulk-emails/) |
 | Ongoing conversation | [Discussions](../course-discussions/) |
-
----
-
-*Adapted from [Open edX — Course Updates](https://docs.openedx.org/en/latest/educators/how-tos/communication/course_updates.html).*

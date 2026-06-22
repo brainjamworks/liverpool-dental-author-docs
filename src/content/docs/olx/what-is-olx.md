@@ -33,7 +33,3 @@ sidebar:
 For a CPD module: probably not — Studio is your source of truth.
 
 For a multi-author postgraduate programme with frequent edits: yes, exported OLX in git gives you change tracking and rollback. Email [dental.cpd@liverpool.ac.uk](mailto:dental.cpd@liverpool.ac.uk) if you want this set up.
-
----
-
-*Adapted from [Open edX — What is OLX?](https://docs.openedx.org/en/latest/educators/concepts/olx/what_is_olx.html).*

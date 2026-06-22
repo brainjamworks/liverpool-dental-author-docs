@@ -5,7 +5,7 @@ sidebar:
   order: 1
 ---
 
-This walkthrough takes you from an empty Studio shell to a publishable CPD course in roughly 30 minutes. If you're new to Open edX, skim [What is Studio?](../what-is-studio/) and [What is the LMS?](../what-is-the-lms/) first.
+This walkthrough takes you from an empty Studio shell to a publishable CPD course in roughly 30 minutes. If you're new to the Learning Hub, skim [What is Studio?](../what-is-studio/) and [What is the LMS?](../what-is-the-lms/) first.
 
 ![Studio Create a new course form](../../../assets/screenshots/studio-new-course.png)
 
@@ -31,7 +31,3 @@ This walkthrough takes you from an empty Studio shell to a publishable CPD cours
 
 - [Plan a new course](../../creating-a-course/plan-a-new-course/) — pedagogy and instructional design.
 - [Create and manage components](../../content/create-and-manage-components/) — full content reference.
-
----
-
-*Adapted from [Open edX — Quick Start: Build a Course](https://docs.openedx.org/en/latest/educators/quick_start/build_a_course.html).*
