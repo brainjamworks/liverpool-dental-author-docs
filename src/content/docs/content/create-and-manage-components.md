@@ -43,7 +43,7 @@ The unit publish button publishes *all* components inside it. You can't publish 
 
 ## Reusing content
 
-Studio has a **Library** feature for cross-course reuse, but for most Liverpool Dental courses it's overkill. If you find yourself copy-pasting the same component into three courses, ask [dental.cpd@liverpool.ac.uk](mailto:dental.cpd@liverpool.ac.uk) about wiring up a library.
+Studio has a **Library** feature for cross-course reuse, but for most Liverpool Dental courses it's overkill. If you find yourself copy-pasting the same component into three courses, ask [support@learning.endo360.co.uk](mailto:support@learning.endo360.co.uk) about wiring up a library.
 
 ## Liverpool Dental custom XBlocks
 

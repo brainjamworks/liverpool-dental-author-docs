@@ -26,7 +26,7 @@ export default defineConfig({
         ThemeProvider: './src/components/ThemeProvider.astro',
       },
       social: {
-        email: 'mailto:dental.cpd@liverpool.ac.uk',
+        email: 'mailto:support@learning.endo360.co.uk',
       },
       editLink: {
         baseUrl:

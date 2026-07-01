@@ -38,4 +38,4 @@ Run this checklist once per course before you publish. It takes about 15 minutes
 ### Course-wide
 - [ ] Course-about page describes the course in plain English.
 - [ ] Course overview lists CPD hours and GDC outcomes addressed.
-- [ ] Support email is visible: [dental.cpd@liverpool.ac.uk](mailto:dental.cpd@liverpool.ac.uk).
+- [ ] Support email is visible: [support@learning.endo360.co.uk](mailto:support@learning.endo360.co.uk).

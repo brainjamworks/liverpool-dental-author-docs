@@ -8,7 +8,7 @@ sidebar:
 The Teams feature lets learners form small groups (or be assigned to them) with private discussion topics and a shared identity. For most self-paced Liverpool Dental CPD modules this is overkill — but worth knowing about for cohort programmes.
 
 :::caution[Not enabled here]
-The Teams feature is **not enabled** on the Liverpool Dental Learning Hub. This page is reference for the day it is — raise a request via [dental.cpd@liverpool.ac.uk](mailto:dental.cpd@liverpool.ac.uk) if you need it for a cohort programme.
+The Teams feature is **not enabled** on the Liverpool Dental Learning Hub. This page is reference for the day it is — raise a request via [support@learning.endo360.co.uk](mailto:support@learning.endo360.co.uk) if you need it for a cohort programme.
 :::
 
 ## When teams help

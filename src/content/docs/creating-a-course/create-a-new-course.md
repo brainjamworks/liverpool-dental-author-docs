@@ -13,7 +13,7 @@ This is the literal first step: an empty course shell with title, number, run, a
 
 ## Before you start
 
-You need an author account on `studio.learning.endo360.uk`. If you don't have one, email [dental.cpd@liverpool.ac.uk](mailto:dental.cpd@liverpool.ac.uk).
+You need an author account on `studio.learning.endo360.uk`. If you don't have one, email [support@learning.endo360.co.uk](mailto:support@learning.endo360.co.uk).
 
 ## Steps
 
