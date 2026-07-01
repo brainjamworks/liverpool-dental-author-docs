@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Deploy to S3 + CloudFront
 
 on:
   push:
@@ -7,15 +7,20 @@ on:
 
 permissions:
   contents: read
-  pages: write
   id-token: write
 
 concurrency:
-  group: pages
+  group: deploy-prod
   cancel-in-progress: false
 
+env:
+  AWS_REGION: eu-west-1
+  BUCKET: liverpool-dental-author-docs
+  DISTRIBUTION_ID: E1SAV91G970RW4
+  ROLE_ARN: arn:aws:iam::950937671756:role/GitHubActionsLiverpoolDentalAuthorDocs
+
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -32,19 +37,34 @@ jobs:
 
       - name: Build site
         run: npm run build
+        env:
+          CUSTOM_DOMAIN: '1'
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
         with:
-          path: ./dist
+          role-to-assume: ${{ env.ROLE_ARN }}
+          aws-region: ${{ env.AWS_REGION }}
 
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Sync to S3
+        run: |
+          # Hashed assets: long cache, immutable.
+          aws s3 sync ./dist s3://$BUCKET/ \
+            --delete \
+            --exclude "*.html" \
+            --exclude "*.xml" \
+            --exclude "*.txt" \
+            --cache-control "public, max-age=31536000, immutable"
+          # HTML/XML/txt: short cache so content updates land fast.
+          aws s3 sync ./dist s3://$BUCKET/ \
+            --exclude "*" \
+            --include "*.html" \
+            --include "*.xml" \
+            --include "*.txt" \
+            --cache-control "public, max-age=60, must-revalidate"
+
+      - name: Invalidate CloudFront
+        run: |
+          aws cloudfront create-invalidation \
+            --distribution-id "$DISTRIBUTION_ID" \
+            --paths "/*"
