@@ -72,6 +72,6 @@ You cannot delete or demote the sole remaining Admin — promote someone else fi
 
 ## What course team access does *not* include
 
-Course team roles are **scoped to a single course**. Adding someone to the team for *Assessing Endodontic Complexity* does not give them access to *Management of Dental Trauma*, and it does not let them create brand-new courses. Course-creation rights are granted separately by the platform team — email `dental.cpd@liverpool.ac.uk` if a colleague needs to author a new course from scratch.
+Course team roles are **scoped to a single course**. Adding someone to the team for *Assessing Endodontic Complexity* does not give them access to *Management of Dental Trauma*, and it does not let them create brand-new courses. Course-creation rights are granted separately by the platform team — email `support@learning.endo360.co.uk` if a colleague needs to author a new course from scratch.
 
 Some more granular LMS roles (Beta Tester, Discussion Admin, Discussion Moderator, Community TA) live on the **LMS Instructor Dashboard → Membership** tab rather than on this Studio page. Use those when you want someone to help moderate discussions or preview unreleased content without giving them full Staff access.

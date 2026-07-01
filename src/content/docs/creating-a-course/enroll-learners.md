@@ -34,7 +34,7 @@ Use this for cohort programmes or whole-practice sign-ups.
 
 ## Capacity, payments, and codes
 
-The Liverpool Dental deployment does **not** currently have e-commerce wired up, so course-level pricing is a label only — there are no checkout flows. If you need paid enrolment, raise it with [dental.cpd@liverpool.ac.uk](mailto:dental.cpd@liverpool.ac.uk) before you publish.
+The Liverpool Dental deployment does **not** currently have e-commerce wired up, so course-level pricing is a label only — there are no checkout flows. If you need paid enrolment, raise it with [support@learning.endo360.co.uk](mailto:support@learning.endo360.co.uk) before you publish.
 
 ## Checking who is enrolled
 

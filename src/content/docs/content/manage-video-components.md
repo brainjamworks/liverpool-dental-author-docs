@@ -35,7 +35,7 @@ This is a GDC/WCAG accessibility requirement. See [Manage video transcripts](../
 
 ## Hosting on S3
 
-Uploaded videos go to the Liverpool Dental S3 bucket via the `tutor-liverpool-dental` plugin's storage routing. You don't need to do anything — uploads through Studio Just Work — but if you're considering uploading 50 GB of source video, mention it to [dental.cpd@liverpool.ac.uk](mailto:dental.cpd@liverpool.ac.uk) first.
+Uploaded videos go to the Liverpool Dental S3 bucket via the `tutor-liverpool-dental` plugin's storage routing. You don't need to do anything — uploads through Studio Just Work — but if you're considering uploading 50 GB of source video, mention it to [support@learning.endo360.co.uk](mailto:support@learning.endo360.co.uk) first.
 
 ## Video best practice for CPD
 

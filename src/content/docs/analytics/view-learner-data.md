@@ -34,4 +34,4 @@ These are large for big courses — queue, then come back to the page.
 - Time-on-page, video play heatmaps, click-by-click.
 - Cross-course engagement.
 
-Those live in deeper analytics (Cairn / Aspects). Not currently exposed on this deployment — raise a request via [dental.cpd@liverpool.ac.uk](mailto:dental.cpd@liverpool.ac.uk) if you need them.
+Those live in deeper analytics (Cairn / Aspects). Not currently exposed on this deployment — raise a request via [support@learning.endo360.co.uk](mailto:support@learning.endo360.co.uk) if you need them.
